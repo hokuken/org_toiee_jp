@@ -1,0 +1,509 @@
+/*
+
+    Base styling
+
+
+*/
+html, body {
+  color: #000;
+  letter-spacing: 0.1em;
+  line-height: 2em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.7em;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+}
+
+
+/*
+
+
+    haik area styling
+
+
+*/
+.haik-container {
+  margin: 80px 0;
+}
+
+.haik-content,
+.haik-article {
+  padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+  .haik-container {
+    word-wrap: break-word;
+  }
+
+  .haik-container {
+    padding: 0;
+    margin-top: 15px;
+  }
+
+}
+
+.haik-container ul > li {
+  padding: 3px 0;
+}
+
+.haik-container ul > li > ul {
+  margin: 5px 0;
+  padding-left: 20px;
+}
+
+.haik-fullpage.haik-container {
+  margin: 0;
+}
+
+
+
+
+/*
+
+
+    Navigation styling
+
+
+*/
+.navbar-default {
+  color: #000000;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active > a:hover {
+  color: #000000;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #bdc3c7;
+}
+
+.nav .open > a:focus,
+.nav .open > a:hover,
+.nav .open > a{
+  border-color: transparent;
+}
+
+
+/*** Not using bs_nav plugin styling ***/
+.navbar-default .list1 {
+  float: right;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  letter-spacing: 0.1em;
+}
+
+.navbar-default .list1 > li {
+  display: block;
+  position: relative;
+  float: left;
+}
+
+.navbar-default .list1,
+.navbar-default .list1 > li > a,
+.navbar-default .list1 > li.active > a,
+.navbar-default .list1 > li.active > a:hover {
+  color: #000000;
+}
+
+.navbar-default .list1 > li > a {
+  position: relative;
+  display: block;
+  padding: 15px;
+}
+
+.navbar-default .list1 > li > a:hover {
+  color: #bdc3c7;
+  text-decoration: none;
+}
+
+.navbar-default .list1 > li.active > a,
+.navbar-default .list1 > li.active > a:hover,
+.navbar-default .list1 > li.active > a:focus {
+  background-color: #e7e7e7;
+}
+
+.dropdown-menu > li > a {
+  padding: 5px 20px;
+  color: #000000;
+  font-size: 13px;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+
+
+
+
+/*
+
+    Eyecatch styling
+
+
+*/
+.haik-eyecatch-top > .qhm-eyecatch > .qhm-section {
+  height: 474px;
+}
+
+.haik-eyecatch-top > .qhm-eyecatch > .qhm-section,
+.haik-eyecatch-main > .qhm-eyecatch > .qhm-section {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.haik-eyecatch-top > .qhm-eyecatch > .qhm-section > div > .container-fluid,
+.haik-eyecatch-main > .qhm-eyecatch > .qhm-section > div > .container-fluid {
+  width: auto;
+  max-width: none;
+  margin: 0;
+}
+
+
+/*
+
+  Eyecatch styling for position
+
+*/
+@media (min-width: 768px){
+  .haik-eyecatch-top > .qhm-eyecatch > .qhm-section > div > .container-fluid,
+  .haik-eyecatch-main > .qhm-eyecatch > .qhm-section > div > .container-fluid {
+    margin: 30px 50px;
+  }
+}
+@media (min-width: 992px){
+  .haik-eyecatch-top > .qhm-eyecatch > .qhm-section > div > .container-fluid,
+  .haik-eyecatch-main > .qhm-eyecatch > .qhm-section > div > .container-fluid {
+    margin: 30px 100px;
+  }
+}
+@media (min-width: 1200px){
+  .haik-eyecatch-top > .qhm-eyecatch > .qhm-section > div > .container-fluid,
+  .haik-eyecatch-main > .qhm-eyecatch > .qhm-section > div > .container-fluid {
+    margin: 30px 150px;
+  }
+}
+
+
+
+/*
+
+
+    Menu styling
+
+
+*/
+.haik-menu {
+  margin-top: 88px;
+}
+
+@media(max-width: 768px){
+  .haik-menu {
+    margin-top: 15px;
+  }
+}
+
+.haik-menu .list1 {
+  padding-left: 0;
+  list-style: none;
+}
+
+.haik-menu .list1 > li {
+  margin-bottom: 30px;
+}
+
+.haik-menu .list1 > li > a {
+  border-left: 4px solid #000;
+  position: relative;
+  display: block;
+  padding: 5px 26px;
+  color: #000;
+  font-size: 15px;
+}
+
+.haik-menu .list1 > li > a:hover,
+.haik-menu .list1 > li > a:focus,
+.haik-menu .list1 > li.active > a,
+.haik-menu .list1 > li.focus > a {
+  border-left: 4px solid #aaa;
+  color: #aaa;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.haik-menu .list-group-item,
+.haik-menu .list-group-item:first-child,
+.haik-menu .list-group-item:last-child {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.haik-menu .list1 > li > ul {
+  list-style: none;
+  padding-left: 27px;
+}
+
+.haik-menu .list1 > li > ul > li {
+  padding: 5px;
+}
+
+.haik-menu .list1 > li > ul > li > ul {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.haik-menu .list1 > li > ul > li a {
+  color: #393939;
+}
+.haik-menu .list1 > li > ul > li a:hover,
+.haik-menu .list1 > li > ul > li a:focus,
+.haik-menu .list1 > li > ul > li.active a {
+  color: #555555;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #555555;
+}
+
+
+
+
+/*
+
+
+    Menu styling for QHM literal
+
+
+*/
+.haik-menu:not(.haik-article-menu) h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.haik-menu:not(.haik-article-menu) h2 a{
+  border-left: 4px solid #000;
+  padding-left: 30px;
+  color: #000;
+}
+
+.haik-menu:not(.haik-article-menu) h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.haik-menu:not(.haik-article-menu) h4 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.haik-menu:not(.haik-article-menu) h3 > a,
+.haik-menu:not(.haik-article-menu) h4 > a {
+  color: #000000;
+  padding-left: 40px;
+}
+
+
+.haik-menu:not(.haik-article-menu) h2 > a:hover,
+.haik-menu:not(.haik-article-menu) h2 > a:focus {
+  color: #aaa;
+  text-decoration: none;
+  border-left: 4px solid #aaa;
+
+}
+
+.haik-menu:not(.haik-article-menu) h3 > a:hover,
+.haik-menu:not(.haik-article-menu) h4 > a:hover,
+.haik-menu:not(.haik-article-menu) h3 > a:focus,
+.haik-menu:not(.haik-article-menu) h4 > a:focus {
+  color: #999999;
+  text-decoration: none;
+}
+
+.haik-menu:not(.haik-article-menu) h2:hover,
+.haik-menu:not(.haik-article-menu) h2:focus,
+.haik-menu:not(.haik-article-menu) h2.focus {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.haik-menu:not(.haik-article-menu) h3.focus > a,
+.haik-menu:not(.haik-article-menu) h4.focus > a {
+  color: #999999;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #999999;
+}
+
+
+
+
+/*
+
+
+    Menu styling for Qblog
+
+
+*/
+.haik-article-menu {
+  margin-top: 80px;
+}
+
+@media(max-width: 768px){
+  .haik-article-menu {
+    margin: 0;
+  }
+}
+
+.haik-article-menu .list-group-item {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.haik-article-menu h2 {
+  font-size: 18px;
+}
+
+.haik-article-menu h3 {
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.haik-article-menu h4 {
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.haik-article-menu h2 > a,
+.haik-article-menu h3 > a,
+.haik-article-menu h4 > a {
+  color: #000000;
+}
+
+
+.haik-article-menu h2 > a:hover,
+.haik-article-menu h2 > a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+.haik-article-menu h3 > a:hover,
+.haik-article-menu h4 > a:hover,
+.haik-article-menu h3 > a:focus,
+.haik-article-menu h4 > a:focus {
+  color: #999999;
+  text-decoration: none;
+}
+
+.haik-article-menu h3.focus > a,
+.haik-article-menu h4.focus > a {
+  color: #999999;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #999999;
+}
+
+
+
+
+/*
+
+
+    Footer styling
+
+
+*/
+
+.haik-footer {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.haik-footer p {
+  font-size: 13px;
+  color: #666666;
+}
+
+
+
+
+/*
+
+
+    Input group styling
+
+
+*/
+.input-group .form-control {
+  height: 40px;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.input-group .input-sm {
+  height: 38px;
+  border-radius: 0;
+}
+
+.input-group .input-lg {
+  height: 57px;
+  border-radius: 0;
+}
+
+.input-group .input-xs {
+  height: 38px;
+}
+
+
+
+
+/*
+
+
+    For QHM styling
+
+
+*/
+table.style_table {
+  margin-bottom: 20px;
+  width: 100%
+}
+
+.style_td,
+.style_th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  line-height: 1.5;
+  vertical-align: top;
+  background-color: #fff;
+}
+.qhm-section > div > .container-fluid {
+  padding: 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+.qblog_date {
+  line-height: normal;
+}

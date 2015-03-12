@@ -7,8 +7,8 @@
 
 return array (
 	'bootstrap' => true,
-	'default_layout' => "default",
-	'content_layout' => "content",
+	'default_layout' => "content",
+	'content_layout' => "default",
 	'article_layout' => "article",
 	'fullpage_layout' => "fullpage",
 	'custom_options' => array(

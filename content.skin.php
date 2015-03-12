@@ -6,6 +6,8 @@
     <meta name="keywords" content="#{$keywords}" />
     <meta name="description" content="#{$description}" />
     <link rel="alternate" type="application/rss+xml" title="RSS" href="#{$rss_link}" />
+    <link href='http://fonts.googleapis.com/css?family=Cambay:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:500,600,700' rel='stylesheet' type='text/css'>
     #{$bootstrap}
     #{$default_css}
     #{$jquery_script}#{$jquery_cookie_script}
@@ -16,7 +18,7 @@
 <body>
     #{$toolkit_upper}
     <!-- ◆ Navbar ◆ ======================================================= -->
-    <nav id="navigator" class="navbar-default" role="navigation">
+    <nav id="navigator" class="navbar-default org-nav" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -39,17 +41,19 @@
       </div>
     </nav>
     <!-- ◆ Content ◆ ========================================================= -->
-    <header class="haik-eyecatch-main" role="banner">
-      #{$main_visual}
+    <header class="haik-eyecatch-main container-fluid org-eyecatch-fluid" role="banner">
+      <div class="container">
+        #{$main_visual} 
+      </div>
     </header>
     <div class="container">
       <div class="row">
-        <div class="col-sm-9 col-sm-push-3">
+        <div class="col-sm-9">
           <div class="haik-container haik-content" role="main">
             #{$body}
           </div>
         </div>
-        <div class="col-sm-3 col-sm-pull-9">
+        <div class="col-sm-3">
           <div class="haik-menu" role="complementary">
             #{$menubar_tag}
           </div>

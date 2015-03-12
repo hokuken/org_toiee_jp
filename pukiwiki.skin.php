@@ -6,6 +6,8 @@
       <meta name="keywords" content="#{$keywords}" />
       <meta name="description" content="#{$description}" />
       <link rel="alternate" type="application/rss+xml" title="RSS" href="#{$rss_link}" />
+      <link href='http://fonts.googleapis.com/css?family=Cambay:400,400italic,700,700italic' rel='stylesheet' type='text/css'>      
+      <link href='http://fonts.googleapis.com/css?family=Dosis:500,600,700' rel='stylesheet' type='text/css'>
       #{$bootstrap}
       #{$default_css}
       #{$jquery_script}#{$jquery_cookie_script}

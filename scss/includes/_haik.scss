@@ -5,9 +5,7 @@
 
 */
 html, body {
-  color: #000;
-  letter-spacing: 0.1em;
-  line-height: 2em;
+  letter-spacing: 0.01em;
 }
 
 h1,
@@ -71,8 +69,8 @@ h4 {
 
 
 */
+/*
 .navbar-default {
-  color: #000000;
   font-weight: bold;
 }
 
@@ -83,6 +81,7 @@ h4 {
   color: #000000;
 }
 
+*/
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-nav > li > a:hover {
   color: #bdc3c7;
@@ -114,7 +113,7 @@ h4 {
 .navbar-default .list1 > li > a,
 .navbar-default .list1 > li.active > a,
 .navbar-default .list1 > li.active > a:hover {
-  color: #000000;
+  color: #333;
 }
 
 .navbar-default .list1 > li > a {
@@ -131,12 +130,11 @@ h4 {
 .navbar-default .list1 > li.active > a,
 .navbar-default .list1 > li.active > a:hover,
 .navbar-default .list1 > li.active > a:focus {
-  background-color: #e7e7e7;
+  color: #bdc3c7;
 }
 
 .dropdown-menu > li > a {
   padding: 5px 20px;
-  color: #000000;
   font-size: 13px;
 }
 
@@ -494,10 +492,9 @@ table.style_table {
   padding: 8px;
   line-height: 1.5;
   vertical-align: top;
-  background-color: #fff;
 }
 .qhm-section > div > .container-fluid {
-  padding: 15px;
+  padding: 0;
 }
 
 .clear {

@@ -18,7 +18,7 @@
   <body>
       #{$toolkit_upper}
       <!-- ◆ Navbar ◆ ======================================================= -->
-      <nav id="navigator" class="navbar-default" role="navigation">
+      <nav id="navigator" class="navbar-default org-landing-nav" role="navigation">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -40,16 +40,14 @@
           </div>
         </div>
       </nav>
-      <!-- ◆ Header ◆ ========================================================= -->
-      <header class="haik-eyecatch-top" role="banner">
-        #{$main_visual}
-      </header>
       <!-- ◆ Content ◆ ========================================================= -->
-      <div class="container">
-        <div class="haik-container haik-default" role="main">
-          #{$body}
+      <div class="container-fluid org-landing-background">
+        <div class="container org-landing-container">
+          <div class="haik-container haik-default org-landing" role="main">
+            #{$body}
+          </div>
+          #{$summary}
         </div>
-        #{$summary}
       </div>
       <!-- ◆ Footer ◆ ========================================================== -->
       <footer class="haik-footer" role="contentinfo">

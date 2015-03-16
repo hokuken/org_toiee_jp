@@ -48,12 +48,12 @@
     </header>
     <div class="container">
       <div class="row">
-        <div class="col-sm-9">
+        <div class="col-sm-8">
           <div class="haik-container haik-content" role="main">
             #{$body}
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <div class="haik-menu" role="complementary">
             #{$menubar_tag}
           </div>

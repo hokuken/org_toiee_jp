@@ -11,6 +11,8 @@ return array (
 	'content_layout' => "default",
 	'article_layout' => "article",
 	'fullpage_layout' => "fullpage",
+	'toieecontent_layout' => "toieecontent",
+	'toieetop_layout' => "toieetop",
 	'custom_options' => array(
 		'logo_text' =>	array(
 			'type'			=> 'text',

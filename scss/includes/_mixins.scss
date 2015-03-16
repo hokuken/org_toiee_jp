@@ -1,0 +1,41 @@
+@mixin nav {
+  border-top: 6px solid #f8d32f;
+  padding: 25px 0;
+  ul {
+    li {
+      a{
+        font-family: $font--base;
+        font-weight: bold;
+        font-style: italic;
+        
+      }
+    }
+  }
+}
+@mixin group {
+    color: #999;
+    font-size: 15px;
+    font-family: $font--base;
+    font-weight: bold;
+    font-style: italic;
+    border-top: 3px solid #eee;
+    padding-top: 10px;
+}
+
+@mixin toiee-nav {
+  padding: 25px 0;
+  ul {
+    li {
+      a{
+        font-family: $font--ropa;        
+      }
+    }
+  }
+}
+
+@mixin padding-left-40 {
+  padding-left: 40px;
+  @media (max-width:768px) {
+    padding-left: 0;
+  }
+}
